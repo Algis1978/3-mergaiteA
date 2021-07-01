@@ -6,10 +6,6 @@ header,
 footer {
   background-color: rgba(223, 223, 168, 0.726);
   display: inline-block;
-  width: 800px;
-  position: absolute;
-  margin: auto;
-  left: 0;
   right: 0;
   height: 60px;
 }
@@ -34,7 +30,7 @@ a {
   text-decoration: none;
   border-style: solid;
   border-color: transparent;
-  border-width: 4px;
+  border-width: 100px;
   border-radius: 16px;
 }
 a:last-child {
@@ -45,7 +41,7 @@ main {
   display: inline-block;
   width: 800px;
   position: absolute;
-  margin: auto;
+  margin: 30;
   left: 0;
   right: 0;
   padding-top: 60px;
@@ -54,11 +50,11 @@ main {
 }
 div {
   display: inline-block;
-  float: left;
+  float: right;
   width: 400px;
 }
 h1 {
-  font-size: 60px;
+  font-size: 160px;
   font-family: sans-serif;
   text-align: center;
 }
@@ -77,13 +73,6 @@ footer {
 footer address {
   display: inline-block;
   float: left;
-  margin: 0;
-  padding: 3px;
-}
-footer audio {
-  background-color: rgba(114, 114, 97, 0.726);
-  display: inline-block;
-  float: right;
   margin: 0;
   padding: 3px;
 }
